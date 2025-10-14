@@ -51,7 +51,7 @@ function Hero() {
             <div className='grid grid-cols-1 sm:grid-cols-2'>
               {/* TEXT CONTENT SECTION */}
               <div className='flex flex-col justify-center gap-4 pt-12 sm:pt-0 text-center sm:text-left order-2 sm:order-1 relative'>
-                <h1 className='text-5xl sm:text-6xl lg:text-7xl font-bold bg-gradient-to-r from-orange-600 to-orange-200 text-transparent bg-clip-text'>
+                <h1 className='text-5xl sm:text-6xl lg:text-7xl font-bold bg-gradient-to-r from-orange-400 to-orange-200 text-transparent bg-clip-text'>
                   {data.title}
                 </h1>
                 <p className='text-sm'>{data.description}</p>
@@ -66,7 +66,7 @@ function Hero() {
               <div className='order-1 sm:order-2'>
                 <div>
                   <img src={data.img} alt=""
-                  className='w-[300px] h-[300px] sm:h-[450px] sm:w-[450px] sm:scale-125 object-contain mx-auto'
+                  className='w-[300px] h-[300px] sm:h-[450px] sm:w-[450px] sm:scale-125 object-contain mx-auto lg:scale-120'
                   />
                 </div>
 
