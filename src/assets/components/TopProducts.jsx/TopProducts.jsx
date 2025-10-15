@@ -2,6 +2,7 @@ import React from 'react'
 import Img1 from "/shirt.png"
 import Img2 from "/shirt2.png"
 import Img3 from "/shirt3.png"
+import { FaStar } from "react-icons/fa";
 
 
 const ProductsData = [
@@ -48,7 +49,7 @@ function TopProducts() {
         >
             {
                 ProductsData.map((data)=>(
-                    <div className='rounded-2xl bg-white hover:bg-orange-400 hover:text-white relative shadow-xl duration-500 group max-w-[300px] mt-16'>
+                    <div className='rounded-2xl bg-white hover:bg-black/50 hover:text-white relative shadow-xl duration-500 group max-w-[300px] mt-16 mb-10'>
                         {/* IMAGE SECTION */}
                        <div className='h-[100px]'>
                         <img src={data.img} alt="" 
@@ -59,7 +60,21 @@ function TopProducts() {
                        {/* DETAILS SECTION */}
                        <div className='p-4 text-center'>
                         {/* STAR RATING */}
-                        
+                        <div className='flex w-full justify-center items-center gap-1'>
+                            <FaStar className='text-yellow-500'/>
+                            <FaStar className='text-yellow-500'/>
+                            <FaStar className='text-yellow-500'/>
+                            <FaStar className='text-yellow-500'/>
+                            <FaStar className='text-yellow-500'/>
+                        </div>
+                        <h1 className='text-xl font-bold'>{data.title}</h1>
+                        <p className='text-gray-500 group-hover:text-white duration-300 text-sm line-clamp-2'>{data.description}</p>
+                        <button 
+                        className='bg-orange-400 text-white px-4 py-1 rounded mt-4 group-hover:bg-white group-hover:text-orange-400 cursor-pointer'
+                        >
+                            Order Now
+                        </button>
+
                        </div>
                     </div>
                 ))
