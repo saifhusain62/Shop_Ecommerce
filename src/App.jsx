@@ -4,6 +4,7 @@ import Hero from './assets/components/Hero/Hero'
 import Products from './assets/components/Products/Products'
 import AOS from "aos"
 import 'aos/dist/aos.css';
+import TopProducts from './assets/components/TopProducts.jsx/TopProducts'
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Navbar/>
       <Hero/>
       <Products/>
+      <TopProducts/>
     </div>
   )
 }

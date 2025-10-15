@@ -51,19 +51,26 @@ function Hero() {
             <div className='grid grid-cols-1 sm:grid-cols-2'>
               {/* TEXT CONTENT SECTION */}
               <div className='flex flex-col justify-center gap-4 pt-12 sm:pt-0 text-center sm:text-left order-2 sm:order-1 relative'>
-                <h1 className='text-5xl sm:text-6xl lg:text-7xl font-bold bg-gradient-to-r from-orange-400 to-orange-200 text-transparent bg-clip-text'>
+                <h1 className='text-5xl sm:text-6xl lg:text-7xl font-bold bg-gradient-to-r from-orange-400 to-orange-200 text-transparent bg-clip-text'
+                 data-aos = "fade-left"
+                >
                   {data.title}
                 </h1>
                 <p className='text-sm'>{data.description}</p>
                 <div>
                   <button
                   className='bg-gradient-to-r from-orange-400 to-orange-300 transition-all duration-200 text-white py-1 px-4 
-                 rounded-full flex items-center gap-3 group cursor-pointer'
+                 rounded-full flex items-center gap-3 group cursor-pointer font-semibold'
+                 data-aos="fade-down"
                   >Order Now</button>
                 </div>
               </div>
               {/* IMAGE SECTION */}
-              <div className='order-1 sm:order-2'>
+              <div className='order-1 sm:order-2'
+              data-aos = "zoom-in"
+              
+
+              >
                 <div>
                   <img src={data.img} alt=""
                   className='w-[300px] h-[300px] sm:h-[450px] sm:w-[450px] sm:scale-125 object-contain mx-auto lg:scale-120'
