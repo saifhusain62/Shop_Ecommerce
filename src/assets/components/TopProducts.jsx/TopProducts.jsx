@@ -45,7 +45,8 @@ function TopProducts() {
 
         {/* BODY SECTION */}
         <div 
-        className='grid grid-cols-1  md:grid-cols-3 md:gap-5 sm:grid-cols-2 gap-20 place-items-center'
+        className='grid grid-cols-1  md:grid-cols-3 md:gap-5 sm:grid-cols-2 gap-20 place-items-center duration-500'
+        data-aos="fade-up"
         >
             {
                 ProductsData.map((data)=>(

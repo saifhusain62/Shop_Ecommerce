@@ -1,5 +1,9 @@
 import React from 'react'
 import Img from "/women2.jpg"
+import { GrSecure } from "react-icons/gr";
+import { IoFastFood } from "react-icons/io5";
+import { GiFoodTruck } from "react-icons/gi";
+import { BiSolidOffer } from "react-icons/bi";
 
 function Banner() {
   return (
@@ -25,6 +29,36 @@ function Banner() {
                 >
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis quos tempora obcaecati aut rem doloremque placeat aperiam commodi, provident aliquam.
                 </p>
+                <div >
+                  <div className='flex items-center gap-4 py-2'>
+                    <IoFastFood 
+                    className='text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-orange-300'
+                    data-aos="zoom-in"
+                    />
+                    <p>Fast Delivary</p>
+                  </div>
+                  <div className='flex items-center gap-4 py-2'>
+                    <GiFoodTruck 
+                    className='text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-green-200'
+                    data-aos="zoom-in"
+                    />
+                    <p>Easy Payment Method</p>
+                  </div>
+                  <div className='flex items-center gap-4 py-2'>
+                    <BiSolidOffer 
+                    className='text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-yellow-200'
+                    data-aos="zoom-in"
+                    />
+                    <p>Get Offers</p>
+                  </div>
+                  <div className='flex items-center gap-4 py-2'>
+                    <GrSecure  
+                    className='text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-violet-200'
+                    data-aos="zoom-in"
+                    />
+                    <p>Quality Products</p>
+                  </div>
+                </div>
 
                </div>
                     
