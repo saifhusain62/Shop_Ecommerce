@@ -7,6 +7,7 @@ import 'aos/dist/aos.css';
 import TopProducts from './assets/components/TopProducts.jsx/TopProducts'
 import Banner from './assets/components/Banner/Banner'
 import Subscribe from './assets/components/Subscribe/Subscribe'
+import Testimonials from './assets/components/Testimonials/Testimonials'
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
       <Banner/>
       <Subscribe/>
       <Products/>
+      <Testimonials/>
       
     </div>
   )
