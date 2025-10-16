@@ -6,6 +6,7 @@ import AOS from "aos"
 import 'aos/dist/aos.css';
 import TopProducts from './assets/components/TopProducts.jsx/TopProducts'
 import Banner from './assets/components/Banner/Banner'
+import Subscribe from './assets/components/Subscribe/Subscribe'
 
 
 function App() {
@@ -25,6 +26,9 @@ function App() {
       <Products/>
       <TopProducts/>
       <Banner/>
+      <Subscribe/>
+      <Products/>
+      
     </div>
   )
 }

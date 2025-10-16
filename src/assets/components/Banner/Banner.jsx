@@ -29,6 +29,8 @@ function Banner() {
                 >
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis quos tempora obcaecati aut rem doloremque placeat aperiam commodi, provident aliquam.
                 </p>
+
+                {/* ICONLIST */}
                 <div >
                   <div className='flex items-center gap-4 py-2'>
                     <IoFastFood 
