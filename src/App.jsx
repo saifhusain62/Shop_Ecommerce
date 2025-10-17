@@ -21,7 +21,7 @@ function App() {
     AOS.refresh();
   }, []);
   return (
-    <div>
+    <div className='overflow-hidden'>
       <Navbar/>
       <Hero/>
       <Products/>

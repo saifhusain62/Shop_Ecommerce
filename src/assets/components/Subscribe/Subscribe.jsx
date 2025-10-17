@@ -22,8 +22,10 @@ function Subscribe() {
             <h1
             className='text-2xl text-center sm:text-left sm:text-4xl font-semibold'
             >Get Notified About New Products</h1>
-            <input type="text" placeholder='Enter Your Email' className='w-2xl p-3 bg-white rounded-sm text-orange-400
-            border-2 border-transparent focus:border-white focus:outline-none' />
+            <div className='flex justify-center'>
+              <input type="text" placeholder='Enter Your Email' className='lg:w-2xl p-3 bg-white rounded-sm text-orange-400
+            border-2 border-transparent focus:border-white focus:outline-none sm:w-12' />
+            </div>
         </div>
 
       </div>

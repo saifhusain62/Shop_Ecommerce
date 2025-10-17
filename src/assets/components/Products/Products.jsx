@@ -56,7 +56,7 @@ function Products() {
     <div className='mt-14 mb-12'>
          <div className='container'>
             {/* HEADER SECTION */}
-            <div className='text-center mb-10 max-w-[600px] mx-auto'>
+            <div className='text-center mb-10 max-w-[600px] mx-auto '>
                 <p className='text-orange-400 text-sm' data-aos="fade-up">Top Selling Products for you</p>
                 <h1 className='text-3xl font-bold text-orange-400' data-aos="fade-up">Products</h1>
                 <p className='text-xs text-gray-400' data-aos="fade-up">
